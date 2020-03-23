@@ -1,0 +1,54 @@
+提交文件到仓库
+git status 查看当前状况
+git add xxx和git add xxx 把文件从工作区提交到暂存区
+git commit -m '提交的文件描述' 把文件从暂存区直接提交到Git仓库
+mkdir xxx 创建文件夹
+cd 文件夹名 进入xx文件夹
+touch xxx 创建文件
+
+修改文件
+ls  选择文件
+vi xxx（a编辑，esc退出编辑，:wq保存）
+git add xxx和git add xxx 把文件从工作区提交到暂存区
+git commit -m '提交的文件描述' 把文件从暂存区直接提交到Git仓库（保存）
+
+删除文件
+rm -rf xxx
+git rm xxx 删除仓库文件
+git commit -m 文件描述（为什么要删除的原因）
+
+克隆文件
+git clone xxx（自己的github仓库网址复制）
+
+git push 将本地同步到git远程仓库（github）
+
+git config   查看配置信息
+git config --global 查看全局配置信息
+
+git config --global user.name 'juewang159' 配置用户名
+git config --global user.email '2494285595@qq.com' 配置邮箱
+
+  建立版本库
+git add 添加
+
+git status  查看当前状态
+
+git log 显示历史日志
+
+
+git diff 查看修改不同的内容
+
+github的设置项     your profile（个人设置）  your reposit(仓库信息)  your projects（项目信息）
+
+settings（设置）中profile 修改name（名字）   修改public email(邮箱)   修改bio (简介)  修改url(博客地址) company(公司)  locatinan(地区)
+
+Account 中 change usename 修改用户名  security 中修改密码  使用搜索栏
+
+远程关联 git remote origin 地址
+
+获取钥匙地址
+ssh-keygen -t rsa
+
+
+
+
